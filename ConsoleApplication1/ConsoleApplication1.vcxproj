@@ -127,7 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="bank.cpp" />
+    <ClCompile Include="concreteInsuranceAgent.cpp" />
+    <ClCompile Include="factory.cpp" />
+    <ClCompile Include="home.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bank.h" />
+    <ClInclude Include="concreteInsuranceAgent.h" />
+    <ClInclude Include="factory.h" />
+    <ClInclude Include="home.h" />
+    <ClInclude Include="insuranceAgent.h" />
+    <ClInclude Include="organization.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
